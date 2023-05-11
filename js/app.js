@@ -88,3 +88,37 @@ var personaJSON = JSON.stringify(persona);
 
 //para traer el string y convertirlo a objeto JSON
 var nuevaPersona = JSON.parse(personaJSON);
+
+//ARITMETICA
+var datoA = 10;
+var datoB = 20;
+
+//suma +
+var suma = datoA + datoB;
+console.log("la suma de"+ datoA +"+"+datoB+"es igual a", suma);
+
+//resta -
+var resta = datoA - datoB;
+console.log("la resta de"+ datoA +"-"+datoB+"es igual a", resta);
+
+//multiplicacion *
+var multiplicacion = datoA * datoB;
+console.log("la multiplicacion de"+ datoA +"*"+datoB+"es igual a", multiplicacion);
+
+//division /
+var division = datoA / datoB;
+console.log("la division de"+ datoA +"/"+datoB+"es igual a", division);
+
+//modulo o residuo %
+var modulo = datoA + datoB;
+console.log("la suma de"+ datoA +"%"+datoB+"es igual a", modulo);
+
+//incremento ++
+var incremento = datoA;
+incremento++;
+console.log("el incremento ++ de"+ datoA +"es igual a", incremento);
+
+//decremento ++
+var decremento = datoA;
+decremento--;
+console.log("el decremento -- de"+ datoA +"es igual a", incremento);
