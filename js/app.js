@@ -22,8 +22,13 @@ console.log(nombre)
 //función básica modificacion de variable solo dentro de funcion:
 
 function saludo (){
-    var nombre = "Rebe";
+    let nombre = "Rebe";
         console.log(nombre)
+
+    let edad = 30;
+    console.log(edad)
 }
 
-return saludo();
+ saludo();
+
+ //LET es una variable local o de bloque
