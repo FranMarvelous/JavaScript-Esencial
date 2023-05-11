@@ -72,3 +72,19 @@ function saludo (){
  var simbolo1 = Symbol();
 
  var ambiente = Symbol("dev");
+
+//JSON - objeto
+var persona = {nombre: "Sergio", twitter:"yacafx"};
+
+var personas =  [ 
+    {nombre: "Jose", twitter:"dsgds"},
+    {nombre: "Pedro", twitter:"ygfhfh"},
+    {nombre: "Ale", twitter:"sdfssd"},
+    persona
+]
+
+//si quiero pasar los datos a BD, convierto con stringify a STRING
+var personaJSON = JSON.stringify(persona);
+
+//para traer el string y convertirlo a objeto JSON
+var nuevaPersona = JSON.parse(personaJSON);
