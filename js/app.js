@@ -36,7 +36,7 @@ function saludo (){
 // CONST es una variable no modificable
  const pi = 3.1416;
 
- //datos numericos (sin comillas)
+ //NUMEROS ... datos numericos (sin comillas)
 
  var edad = 35; //numero 
  var cantidad = "100"; //string
@@ -57,4 +57,14 @@ function saludo (){
  //BOOLEANS
  var activo = false;
 
- var estado = Boolean(10 < 9);
+ var estado = Boolean(10 < 9); //esto dará false
+
+ //FECHAS
+ var fecha = new Date();
+ 
+ //fecha.getDay() -- dia de semana
+ //fecha.getDate() -- dia del mes
+ //fecha.getHours() -- hora del momento de ejecucion
+ //fecha.setDate(5) -- le asigno datos a la fecha
+
+ 
