@@ -20,6 +20,7 @@ console.log(nombre)
 //Var son destructivas, se sobreescriben.
 
 //función básica modificacion de variable solo dentro de funcion:
+//LET es una variable local o de bloque
 
 function saludo (){
     let nombre = "Rebe";
@@ -31,6 +32,29 @@ function saludo (){
 
  saludo();
 
- //LET es una variable local o de bloque
 
+// CONST es una variable no modificable
  const pi = 3.1416;
+
+ //datos numericos (sin comillas)
+
+ var edad = 35; //numero 
+ var cantidad = "100"; //string
+ //var nuevaCantidad = number(cantidad); //cambia el string a numerico
+
+ //si sumo string más numero, solo se concatenan
+ //parseInt(datos a enteros)
+ //parseFloat(datos a decimal)
+ //String(numero a string)
+
+ //TEXTOS:
+ var bebida = "agua";
+ var comida = "ceviche";
+ var instruccion = "El platillo es "+comida;
+ console.log(instruccion);
+
+
+ //BOOLEANS
+ var activo = false;
+
+ var estado = Boolean(10 < 9);
