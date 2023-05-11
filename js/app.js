@@ -32,3 +32,5 @@ function saludo (){
  saludo();
 
  //LET es una variable local o de bloque
+
+ const pi = 3.1416;
