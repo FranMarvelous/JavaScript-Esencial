@@ -1,3 +1,4 @@
-alert("Hola desde un archivo externo");
+//alert("Hola desde un archivo externo");
 
-console.log("Hola consola")
+// este es un mensaje en consola
+console.log("Hola consola");
