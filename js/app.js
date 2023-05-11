@@ -67,4 +67,8 @@ function saludo (){
  //fecha.getHours() -- hora del momento de ejecucion
  //fecha.setDate(5) -- le asigno datos a la fecha
 
+ //SIMBOLOS = valores unicos, no cambian ni son iguales a otros
  
+ var simbolo1 = Symbol();
+
+ var ambiente = Symbol("dev");
